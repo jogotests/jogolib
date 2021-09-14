@@ -7,6 +7,7 @@ import (
 )
 
 func main() {
+	// test
 	g := jogolib.NewGreeter("Hello")
 	m := g.Greet("joshuagame")
 	fmt.Println(m)
