@@ -2,7 +2,7 @@ package jogolib
 
 import "fmt"
 
-// Greeter ..
+// Greeter ....
 type Greeter interface {
 	Greet(name string) string
 }
