@@ -16,5 +16,5 @@ func NewGreeter(prefix string) Greeter {
 }
 
 func (g *greeter) Greet(name string) string {
-	return fmt.Sprintf("%s %s", g.prefix, name)
+	return fmt.Sprintf("**%s %s**", g.prefix, name)
 }
